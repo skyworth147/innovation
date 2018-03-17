@@ -15,6 +15,30 @@ export default new Router({
     {
       path:'/hello',
       component:hello
+    },
+
+    // user-info center
+    {
+      path: '/user',
+      component: User,
+      children: [
+        {
+          path: 'resume',
+          component: Resume
+        },
+        {
+          path: 'management',
+          component: Management
+        },
+        {
+          path: 'book',
+          component: Book
+        },
+        {
+          path: 'message',
+          component: Message
+        }
+      ]
     }
   ]
 })
