@@ -1,5 +1,5 @@
 <template>
-
+  <div>这里是message</div>
 </template>
 
 <script>
