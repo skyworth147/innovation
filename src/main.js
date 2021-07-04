@@ -16,12 +16,12 @@ new Vue({
   render: h => h(App)
 })
 
-
-axios({
-  url: 'https://cnodejs.org/api/v1',
-  method:'get',
-}).then((res)=>{
-  return res.data
-}).then((data)=>{
-  
-})
+//
+// axios({
+//   url: 'https://cnodejs.org/api/v1',
+//   method:'get',
+// }).then((res)=>{
+//   return res.data
+// }).then((data)=>{
+//
+// })
